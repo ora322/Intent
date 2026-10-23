@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF9F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layoutDirection="rtl">
+
+        <!-- כותרת האפליקציה -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ברוכים הבאים לישראל"
+            android:textColor="#172B40"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- כותרת משנה -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="גלו מקומות מיוחדים בישראל"
+            android:textColor="#627386"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="18dp" />
+
+        <!-- תמונת באנר -->
+        <ImageView
+            android:id="@+id/bannerImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"
+            android:contentDescription="נוף בישראל"
+            android:background="#DDE7E5"
+            android:layout_marginBottom="20dp" />
+
+        <!-- כותרת מרכזית -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="מצדיה"
+            android:textColor="#172B40"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- כפתור ראשי -->
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="גלו עוד באתר"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#147F83"
+            android:layout_marginBottom="10dp" />
+
+        <!-- שני כפתורים בשורה -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="מפות"
+                android:textColor="#173047"
+                android:backgroundTint="#E0EFED" />
+
+            <Button
+                android:id="@+id/btnOfficial"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="אתר רשמי"
+                android:textColor="#173047"
+                android:backgroundTint="#E0EFED" />
+
+        </LinearLayout>
+
+        <!-- כפתור פתיחת אתר -->
+        <Button
+            android:id="@+id/btnWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="פתיחת אתר רשמי"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#147F83"
+            android:layout_marginBottom="10dp" />
+
+        <!-- כפתור שיתוף -->
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="שיתוף המלצה"
+            android:textColor="#173047"
+            android:backgroundTint="#F2E7D2"
+            android:layout_marginBottom="12dp" />
+
+        <!-- טקסט תחתון -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="בחרו פעולה כדי להמשיך"
+            android:textColor="#E66A56"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
