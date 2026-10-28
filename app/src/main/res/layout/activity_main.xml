@@ -50,11 +50,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="מצדיה"
+            android:text="מצדה"
             android:textColor="#172B40"
             android:textSize="22sp"
             android:textStyle="bold"
             android:gravity="center"
+            android:id="@+id/tvRandom"
             android:layout_marginBottom="12dp" />
 
         <!-- כפתור ראשי -->
@@ -83,16 +84,6 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="4dp"
                 android:text="מפות"
-                android:textColor="#173047"
-                android:backgroundTint="#E0EFED" />
-
-            <Button
-                android:id="@+id/btnOfficial"
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:layout_marginStart="4dp"
-                android:text="אתר רשמי"
                 android:textColor="#173047"
                 android:backgroundTint="#E0EFED" />
 
